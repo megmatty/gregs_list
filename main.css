@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.name {
+	font-weight: normal;
+	float: left;
+	margin-top: 17px;
+	padding-left: 20px;
+}
+
+nav {
+	background-color: #eee;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	float: right;
+}
+
+ul {
+	float: right;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	font-size: 1.2em;
+	padding-right: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	padding: 100px;
+}
+
+input[type="search"] {
+	height: 35px;
+	width: 60%;
+	border-radius: 5%;
+	border: 1px solid #eee;
+}
+
+::-webkit-input-placeholder {
+	padding-left: 5px;
+}
+
+::-moz-input-placeholder {
+	padding-left: 5px;
+}
+
+.grey-text {
+	color: #999;
+	padding-right: 15px;
+}
+
+.job-text {
+	color: blue;
+	font-weight: bold;
+	padding-right: 15px;
+}
+
+form {
+	position: relative;
+}
+
+.search-icon, .prev-next {
+	border: 1px solid #eee;
+	border-radius: 5%;
+}
+
+.search-icon {
+	width: 35px;
+	position: absolute;
+	margin-left: 5px;
+
+}
+
+.button-nav {
+	margin-top: 20px;
+}
+
+.prev-next {
+	display: inline-block;
+	height: 45px;
+	padding: 12px 20px;
+}
+
+.listings {
+	margin-top: 50px;
+}
+
+
+
+
+
